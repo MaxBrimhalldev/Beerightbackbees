@@ -3358,3 +3358,8 @@ input, select, textarea {
 			}
 
 	}
+.logoPics{
+	width:10%;
+	display: inline-block;
+	padding-right: 80px;
+}
