@@ -3363,11 +3363,15 @@ input, select, textarea {
 	display: inline-block;
 	padding-right: 80px;
 }
-#shop{
+#shop, .buy{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
 .honey{
 	height: 60%;
+	
+}
+.purchase{
+	justify-content: center;
 }
