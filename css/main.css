@@ -3365,9 +3365,32 @@ input, select, textarea {
 			}
 			.pic{
 				width: 25%;
-			}
-			.logoPics{
+			}	
+}
+.logoPics{
 				width: 15%;
 	
-			}		
+			}	
+.lgs{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1%;
 }
+
+.idaho{
+	width: 20%;
+}
+.colonel{
+	width: 100%;
+}
+#shop, .buy{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.honey{
+	height: 60%;
+	
+}
+.purchase{
+	justify-content: center;
