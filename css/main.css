@@ -3370,20 +3370,4 @@ input, select, textarea {
 				width: 15%;
 	
 			}		
-	}
-.logoPics{
-	width: 20%;
-	
-}
-.lgs{
-	display: flex;
-	justify-content: center;
-	padding-bottom: 1%;
-}
-
-.idaho{
-	width: 20%;
-}
-.colonel{
-	width: 100%;
 }
