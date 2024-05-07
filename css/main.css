@@ -2828,6 +2828,12 @@ input, select, textarea {
 			#banner {
 				height: 24em;
 			}
+			.pic{
+				width: 20%;
+			}
+			.logoPics{
+				width: 0.5%;
+			}	
 
 	}
 
@@ -3357,10 +3363,16 @@ input, select, textarea {
 				padding: 2em 20px;
 				text-align: left;
 			}
-
+			.pic{
+				width: 25%;
+			}
+			.logoPics{
+				width: 15%;
+	
+			}		
 	}
 .logoPics{
-	width: 50%;
+	width: 20%;
 	
 }
 .lgs{
@@ -3368,9 +3380,10 @@ input, select, textarea {
 	justify-content: center;
 	padding-bottom: 1%;
 }
-.pic{
-	width: 80%;
-}
+
 .idaho{
 	width: 20%;
+}
+.colonel{
+	width: 100%;
 }
