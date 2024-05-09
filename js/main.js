@@ -65,3 +65,9 @@
 				});
 
 })(jQuery);
+
+document.querySelector('.button').addEventListener('click',)
+
+function sendEmail(){
+	
+}
