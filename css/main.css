@@ -3364,11 +3364,11 @@ input, select, textarea {
 				text-align: left;
 			}
 			.pic{
-				width: 25%;
+				width: 80%;
 			}	
 }
-.logoPics{
-				width: 15%;
+			.logoPics{
+				width: 10%;
 	
 			}	
 .lgs{
@@ -3381,7 +3381,9 @@ input, select, textarea {
 	width: 5%;
 }
 .colonel{
-	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	height: 50%
 }
 #shop, .buy{
 	display: flex;
@@ -3394,3 +3396,10 @@ input, select, textarea {
 }
 .purchase{
 	justify-content: center;
+}
+.brb{
+	width: 5%;
+}
+.pic{
+	width: 25%;
+}
