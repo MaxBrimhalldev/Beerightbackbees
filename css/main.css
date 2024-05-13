@@ -3374,7 +3374,7 @@ input, select, textarea {
 .lgs{
 	display: flex;
 	justify-content: center;
-	padding-bottom: 1%;
+	align-content: center;
 }
 
 .idaho{
