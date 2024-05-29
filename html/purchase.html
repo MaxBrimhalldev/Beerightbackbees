@@ -6,10 +6,10 @@
 -->
 <html>
 	<head>
-		<title>Bee Right Back Farm Shopping</title>
+		<title>No Sidebar - Arcana by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="C:\Users\Max Brimhall\Documents\GitHub\Beerightbackbees\css\main.css" />
+		<link rel="stylesheet" href="C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/css/main.css" />
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -27,8 +27,8 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="C:/Users/mbrim/OneDrive/Documents/GitHub/Beerightbackbees/html/index.html">Home</a></li>
-								<li class='current'>
+								<li class="current"><a href="index.html">Home</a></li>
+								<li>
 									<a href="C:/Users/mbrim/OneDrive/Documents/GitHub/Beerightbackbees/html/Shopping.html">Shopping</a>
 									<ul>
 										<li><a href="C:/Users/mbrim/OneDrive/Documents/GitHub/Beerightbackbees/html/Shopping.html">Honey</a></li>
@@ -48,23 +48,32 @@
 
 							<!-- Content -->
 
-								<section id='shop'>
-									<section  class='purchase'>
-										<h2>Honey</h2>
-										<img  class = "honey" src="C:/Users/mbrim/OneDrive/Documents/GitHub/Beerightbackbees/images/honey-jar.jpg" alt='A Jar of Honey'>
-										<nav>
-											<ul>
-												<li><a href ="C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/html/purchase.html"></a></li>
+								<section class="col-6 col-12-narrower">
+								<h3>Get In Touch</h3>
+								<form id="my-form" action="https://formspree.io/f/mqkrovpv" method="POST">
+									<div class="row gtr-50">
+										<div class="col-6 col-12-mobilep">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="col-6 col-12-mobilep">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input id="my-form-button" type="submit" class="button alt" value="Send Message" /></li>
 											</ul>
-										</nav>
-										<button class="buy">Buy</button>
-									</section>
-									<section class='purchase'>
-										<h2>Eggs</h2>
-										<img class = "honey" src="C:/Users/mbrim/OneDrive/Documents/GitHub/Beerightbackbees/images/eggs.jpg" alt='An Egg'>
-											<button class="buy">Buy</button>
-									</section>
-								</section>
+											<p id="my-form-status"></p>
+										</div>
+									</div>
+								</form>
+							</section>
+
+						</div>
+					</div>
+				</section>
 
 			<!-- Footer -->
 				<div id="footer">
@@ -108,23 +117,20 @@
 									</div>
 								</form>
 							</section>
-							<section class=" colonel col-12-mobilep">
-								<section class="col-3 col-6-narrower col-12-mobilep">
-									<div class = "row gtr-50 lgs logs">
-									<img class = 'pic'src='C:/Users/mbrim/OneDrive/Documents/GitHub/Beerightbackbees/images/hivesforheroes.png' alt='Heroes For Hives'>
-									</div>
-								</section>
-								<section class="col-3 col-6-narrower col-12-mobilep">
-									<div class= "row gtr-50 lgs">
-									<img class = 'logoPics'src='C:/Users/mbrim/OneDrive/Documents/GitHub/Beerightbackbees/images/heroestohives.png' alt='Heroes to Hives'>
-									</div>
-								</section>
+							<section class="colonel col-12-mobilep">
+									<img class = 'pic'src='C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/images/hivesforheroes.png' alt='Heroes For Hives'>
+									<img class = 'logoPics'src='C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/images/heroestohives.png' alt='Heroes to Hives'>
 							</section>
 						</div>
 					</div>
 
 					<!-- Icons -->
 						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
 						</ul>
 
 					<!-- Copyright -->
