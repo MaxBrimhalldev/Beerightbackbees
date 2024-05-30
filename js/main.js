@@ -97,3 +97,13 @@
     });
   }
   form.addEventListener("submit", handleSubmit)
+  
+  document.querySelector('#honey').addEventListener('click', honeyRedirect)
+  document.querySelector('#eggs').addEventListener('click', eggRedirect)
+  
+  function honeyRedirect(){
+	  location.href = 'C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/html/honeypurchase.html';
+  }
+  function eggRedirect(){
+	  location.href = "C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/html/purchase.html";
+  };
