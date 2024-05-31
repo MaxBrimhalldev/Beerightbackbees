@@ -102,8 +102,8 @@
   document.querySelector('#eggs').addEventListener('click', eggRedirect)
   
   function honeyRedirect(){
-	  location.href = 'C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/html/honeypurchase.html';
+	  location.replace('C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/html/honeypurchase.html')
   }
   function eggRedirect(){
-	  location.href = "C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/html/purchase.html";
+	  location.replace("C:/Users/Max Brimhall/Documents/GitHub/Beerightbackbees/html/purchase.html")
   };
