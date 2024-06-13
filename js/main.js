@@ -98,9 +98,11 @@
   }
   form.addEventListener("submit", handleSubmit)
   
+  // Handles the clicks of the buy button
   document.querySelector('#honey').addEventListener('click', honeyRedirect)
   document.querySelector('#eggs').addEventListener('click', eggRedirect)
   
+  // redirect the page in case of an error
   function honeyRedirect(){
 	  location.replace('honeypurchase.html')
   }
