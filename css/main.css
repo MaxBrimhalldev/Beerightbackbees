@@ -3383,7 +3383,7 @@ input, select, textarea {
 .colonel{
 	display: flex;
 	justify-content: space-around;
-	height: 50%
+	align-content: center;
 }
 #shop, .buy{
 	display: flex;
@@ -3404,5 +3404,11 @@ input, select, textarea {
 	width: 5%;
 }
 .pic{
-	width: 25%;
+	margin-top: 5%;
+	height: 60%;
+	width: 30%;
+}
+.logoPics{
+	height: 110%;
+	width: 20%;
 }
